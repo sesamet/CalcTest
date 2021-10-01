@@ -13,8 +13,7 @@ RUN npm install
 
 
 # 開放對外的 port
-EXPOSE 3000
+# EXPOSE 1314
 
 # 執行專案
-CMD npm start
-
+CMD ["npm", "start"]
